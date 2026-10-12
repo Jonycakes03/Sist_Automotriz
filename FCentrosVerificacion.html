@@ -1,0 +1,148 @@
+<?php
+session_start();
+if(! isset ($_SESSION['Admin'])){
+    header("Location: Front_Ingresar.html");
+    exit;
+}
+?>
+<html>
+    <head>
+        <style type="text/css">
+        .dropdown {
+        display: inline-block;
+        position: relative;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rbga(0,0,0,0.2);
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+    .dropdown-content a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .dropdown-content a:hover{
+        color: #FFFFFF;
+        background-color: #00a4bd;
+    }
+    </style>
+    </head>
+    <form>
+<div class="dropdown">
+    <button>Conductores</button>
+    <div class="dropdown-content">
+    <a href="VConductores.php">Consulta</a>
+    <a href="FConductores.html">Insertar</a>
+    <a href="CA_Conductores.php">Actualizar</a>
+    <a href="CConductores.php">Eliminar</a>
+    </div>
+    </div> 
+    <div class="dropdown">
+        <button>Centros Verificacion</button>
+        <div class="dropdown-content">
+        <a href="VCentrosVerificacion.php">Consulta</a>
+        <a href="FCentrosVerificacion.html">Insertar</a>
+        <a href="CA_CentrosVerificacion.php">Actualizar</a>
+        <a href="CCentrosVerificacion.php">Eliminar</a>
+        </div>
+        </div>
+    <div class="dropdown">
+            <button>Licencias</button>
+            <div class="dropdown-content">
+            <a href="VLicencias.php">Consulta</a>
+            <a href="FLicencias.html">Insertar</a>
+            <a href="CA_Licencias.php">Actualizar</a>
+            <a href="CLicencias.php">Eliminar</a>
+            <a href="ImprimirLicencia.php">Imprimir</a>
+
+            </div>
+            </div>
+    <div class="dropdown">
+                <button>Multas</button>
+                <div class="dropdown-content">
+                <a href="VMultas.php">Consulta</a>
+                <a href="FMultas.html">Insertar</a>
+                <a href="CA_Multas.php">Actualizar</a>
+                <a href="CMultas.php">Eliminar</a>
+                </div>
+                </div> 
+     <div class="dropdown">
+                    <button>Propietarios</button>
+                    <div class="dropdown-content">
+                    <a href="VPropietarios.php">Consulta</a>
+                    <a href="FPropietarios.html">Insertar</a>
+                    <a href="CA_Propietarios.php">Actualizar</a>
+                    <a href="CPropietarios.php">Eliminar</a>
+                    </div>
+                    </div> 
+        <div class="dropdown">
+                        <button>Tarjetas de circulacion</button>
+                        <div class="dropdown-content">
+                        <a href="VTarjetaCirculacion.php">Consulta</a>
+                        <a href="FTarjetasDeCirculacion.html">Insertar</a>
+                        <a href="CA_TarjetasCirculacion.php">Actualizar</a>
+                        <a href="CTarjetaCirculacion.php">Eliminar</a>
+                        </div>
+                        </div>  
+        <div class="dropdown">
+                            <button>Tenencias</button>
+                            <div class="dropdown-content">
+                            <a href="VTenencias.php">Consulta</a>
+                            <a href="FTenencias.html">Insertar</a>
+                            <a href="CA_Tenencias.php">Actualizar</a>
+                            <a href="CTenencias.php">Eliminar</a>
+                            </div>
+                            </div>
+        <div class="dropdown">
+                <button>Vehiculos</button>
+                <div class="dropdown-content">
+                <a href="VVehiculos.php">Consulta</a>  
+                <a href="FVehiculos.html">Insertar</a>
+                <a href="CA_Vehiculos.php">Actualizar</a>  
+                <a href="CVehiculos.php">Eliminar</a>
+               
+                </div>
+                </div>  
+        <div class="dropdown">
+                <button>Verificaciones</button>
+                <div class="dropdown-content">
+                <a href="VVerificaciones.php">Consulta</a>
+                <a href="FVerificaciones.html">Insertar</a>
+                <a href="CA_Verificaciones.php">Actualizar</a>
+                <a href="CVerificaciones.php">Eliminar</a>                   
+                </div>
+                </div>      
+    </form>   
+
+    <form method="get" action="ICentrosVerificacion.php">
+        <label>Centros_Verificacion</label>
+        <br>
+
+        <label>CentroVerificacionId</label>
+        <input type= "number" id= "CentroVerificacionId" name ="CentroVerificacionId">
+        <p></p>
+        <label>Direccion</label>
+        <input type= "text" id= "Direccion" name ="Direccion">
+        <p></p>
+        <label>Telefono</label>
+        <input type= "number" id= "Telefono" name ="Telefono">
+        <p></p>
+        <label>Horario</label>
+        <input type= "text" id= "Horario" name ="Horario">
+        <p></p>
+        <label>Responsable</label>
+        <input type= "text" id= "Responsable" name ="Responsable">
+        <p></p>
+    
+        
+        <input type="submit">
+
+    </form>
+</html>

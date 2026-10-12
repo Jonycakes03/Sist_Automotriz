@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <style type="text/css">
+        .dropdown {
+        display: inline-block;
+        position: relative;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rbga(0,0,0,0.2);
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+    .dropdown-content a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-decoration: none;
+    }
+    .dropdown-content a:hover{
+        color: #FFFFFF;
+        background-color: #00a4bd;
+    }
+    </style>
+    </head>
+    <form>
+<div class="dropdown">
+    <button>Conductores</button>
+    <div class="dropdown-content">
+    <a href="VConductoresUser.php">Consulta</a>
+    
+    </div>
+    </div> 
+    <div class="dropdown">
+        <button>Centros Verificacion</button>
+        <div class="dropdown-content">
+        <a href="VCentrosVerificacionUser.php">Consulta</a>
+        </div>
+        </div>
+    <div class="dropdown">
+            <button>Licencias</button>
+            <div class="dropdown-content">
+            <a href="VLicenciasUser.php">Consulta</a>
+            </div>
+            </div>
+    <div class="dropdown">
+                <button>Multas</button>
+                <div class="dropdown-content">
+                <a href="VMultasUser.php">Consulta</a>
+                </div>
+                </div> 
+     <div class="dropdown">
+                    <button>Propietarios</button>
+                    <div class="dropdown-content">
+                    <a href="VPropietariosUser.php">Consulta</a>
+                    </div>
+                    </div> 
+        <div class="dropdown">
+                        <button>Tarjetas de circulacion</button>
+                        <div class="dropdown-content">
+                        <a href="VTarjetaCirculacionUser.php">Consulta</a>
+                        </div>
+                        </div>  
+        <div class="dropdown">
+                            <button>Tenencias</button>
+                            <div class="dropdown-content">
+                            <a href="VTenenciasUser.php">Consulta</a>
+                            </div>
+                            </div>
+        <div class="dropdown">
+                <button>Vehiculos</button>
+                <div class="dropdown-content">
+                <a href="VVehiculosUser.php">Consulta</a>
+                
+               
+                </div>
+                </div>  
+        <div class="dropdown">
+                <button>Verificaciones</button>
+                <div class="dropdown-content">
+                <a href="VVerificacionesUser.php">Consulta</a>
+                </div>
+                </div>      
+    </form>   
+</html>

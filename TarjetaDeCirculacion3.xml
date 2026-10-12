@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TarjetaDeCirculacion>
+    <TarjetadeCirculacionid><3></TarjetadeCirculacionid>
+    <Rfc><3></Rfc>
+    <Folio><3></Folio
+    <Vigencia><0003-03-03></Vigencia>
+    <Placa><3></Placa>
+    <TipoServicio><3></TipoServicio>
+    <FechaExpedicion><0003-03-31></FechaExpedicion>
+    <OficinaExp><3></OficinaExp>
+    <NumConstancia><3></NumConstancia>
+    <Uso><3></Uso>
+    <Operacion><3></Operacion>
+    <PlacaAnterior><3></PlacaAnterior>
+    <Holograma><Si></Holograma>
+    <Propietario><1></Propietario>
+    <Vehiculo><1></Vehiculo>
+</TarjetaDeCirculacion>
+

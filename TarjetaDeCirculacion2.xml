@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TarjetaDeCirculacion>
+    <TarjetadeCirculacionid><2></TarjetadeCirculacionid>
+    <Rfc><SUXJ432W></Rfc>
+    <Folio><321></Folio
+    <Vigencia><2026-01-01></Vigencia>
+    <Placa><DSAW></Placa>
+    <TipoServicio><Alta></TipoServicio>
+    <FechaExpedicion><2024-11-25></FechaExpedicion>
+    <OficinaExp><5></OficinaExp>
+    <NumConstancia><5></NumConstancia>
+    <Uso><3></Uso>
+    <Operacion><2></Operacion>
+    <PlacaAnterior><ADFA></PlacaAnterior>
+    <Holograma><Si></Holograma>
+    <Propietario><1></Propietario>
+    <Vehiculo><1></Vehiculo>
+</TarjetaDeCirculacion>
+
